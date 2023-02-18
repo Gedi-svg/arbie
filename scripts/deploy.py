@@ -8,8 +8,8 @@ import requests
 import pandas as pd
 
 PROJECT_DIR = Path(__file__).parent.parent
-CHAIN_ID = 1
-TOKENS_LIST_URL = f"https://apiv4.paraswap.io/v2/tokens/{CHAIN_ID}"
+CHAIN_ID = 137
+TOKENS_LIST_URL = f"https://apiv5.paraswap.io/v2/tokens/{CHAIN_ID}"
 
 
 # Fetch the token list if it doesn't exist

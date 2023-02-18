@@ -29,9 +29,9 @@ N_THREADS = 20
 CHAIN_ID = 137
 
 # 1 = Ethereum Mainnet
-TOKENS_LIST_URL = f"https://apiv4.paraswap.io/v2/tokens/{CHAIN_ID}"
-PRICES_URL = "https://apiv4.paraswap.io/v2/prices"
-TX_BUILDER_URL = f"https://apiv4.paraswap.io/v2/transactions/{CHAIN_ID}"
+TOKENS_LIST_URL = f"https://apiv5.paraswap.io/v2/tokens/{CHAIN_ID}"
+PRICES_URL = "https://apiv5.paraswap.io/v2/prices"
+TX_BUILDER_URL = f"https://apiv5.paraswap.io/v2/transactions/{CHAIN_ID}"
 
 # Contract Addrs
 ARBIE_ADDR = "0x6E28f4F42aB08b3497bdA0B5bD0486badb883653"

@@ -22,9 +22,9 @@ def charlie(accounts):
 
 
 crypto_swap_coins = [
-    "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7",#USDT
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",#WBTC
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",#WETH
 ]
 
 
@@ -84,7 +84,7 @@ def token_transfer_proxy(accounts, augustus_swap, interface):
 @pytest.fixture(scope="session")
 def multicall2_addr():
     """Address of Multicall2"""
-    return "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696"
+    return "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696" #UNISWAP_V3_MULTICALL_ADDRESS
 
 
 @pytest.fixture(scope="module")
